@@ -28,9 +28,9 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <a href="{{ route('home') }}" class="flex items-center space-x-2">
-                        <span class="text-3xl">📚</span>
+                        <span class="text-3xl"><img src="" alt=""></span>
                         <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                            English Dictation
+                            English Daily
                         </span>
                     </a>
                     <div class="hidden md:flex ml-10 space-x-8">
@@ -108,8 +108,8 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="col-span-2">
                     <div class="flex items-center space-x-2 mb-4">
-                        <span class="text-3xl">📚</span>
-                        <span class="text-xl font-bold">English Dictation</span>
+                        <span class="text-3xl"></span>
+                        <span class="text-xl font-bold">English Daily</span>
                     </div>
                     <p class="text-gray-400 mb-4">Master English listening through interactive dictation exercises.</p>
                     <div class="flex space-x-4">

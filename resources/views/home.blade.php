@@ -15,7 +15,7 @@
         </p>
         <div class="flex justify-center gap-4">
             <a href="{{ route('categories.index') }}" class="px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-xl hover:bg-blue-700 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                🚀 Start Learning Now
+                 Start Learning Now
             </a>
             @guest
             <a href="{{ route('register') }}" class="px-8 py-4 bg-white text-blue-600 text-lg font-semibold rounded-xl border-2 border-blue-600 hover:bg-blue-50 transition">

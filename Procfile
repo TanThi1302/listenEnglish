@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 public/
+web: chmod -R 777 storage bootstrap/cache && php artisan config:cache && php artisan route:cache && php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT

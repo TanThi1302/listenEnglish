@@ -22,7 +22,7 @@
             <!-- Image/Icon -->
             <div class="h-56 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 flex items-center justify-center relative overflow-hidden">
                 @if($category->image)
-                    <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="w-full h-full object-cover object-center transition duration-500 group-hover:scale-60">
                 @else
                     <span class="text-8xl group-hover:scale-110 transition duration-500">📚</span>
                 @endif
