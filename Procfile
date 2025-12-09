@@ -1,1 +1,1 @@
-web: export PHP_VERSION=8.2 && php artisan migrate --force && vendor/bin/heroku-php-apache2 public/
+web: export PHP_VERSION=8.2 && vendor/bin/heroku-php-apache2 public/
