@@ -1,1 +1,1 @@
-web: php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=
+web: export PHP_VERSION=8.2 && php artisan migrate --force && vendor/bin/heroku-php-apache2 public/
